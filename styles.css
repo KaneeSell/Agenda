@@ -11,7 +11,7 @@ body {
         background-size: cover;
       }
     
-      .login-container, .cadastro-container, #menu-container, .cadastro-containerr {
+      .login-container, .cadastro-container, #menu-container {
         background-color: #fff;
         border-radius: 8px;
         padding: 20px;
@@ -73,19 +73,4 @@ body {
     button:hover {
         background-color: #0056b3;
     }
-    
-    ul {
-        list-style-type: none;
-        padding: 0;
-    }
-    
-    li {
-        padding: 10px;
-        background-color: #f4f4f4;
-        margin-bottom: 5px;
-    }
-    #menu-container button:hover, #menu-container button:hover {
-        background-color: #0056b3;
-      }
-    font-family: Arial, sans-serif;
 }
