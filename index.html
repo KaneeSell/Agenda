@@ -7,12 +7,43 @@
     <link rel="stylesheet" href="styles.css">
 </head>
 <body>
-    <div class="container">
-        <h1>Agenda Online</h1>
+
+    <!-- Conteúdo do Login aqui -->
+    <div class="login-container">
+        <h2>Login</h2>
+      <img src="placeholder.jpg" alt="Foto do Usuário">
+      <form id="login-form">
+        <input type="text" id="username" placeholder="Usuário" required>
+        <br>
+        <input type="password" id="password" placeholder="Senha" required>
+        <br>
+        <button type="submit">Login</button>
+      </form>
+      <button id="cadastro-btn">Cadastrar</button>
+    </div>
+    
+      <!-- Conteúdo do Cadastro aqui -->
+    <div class="cadastro-container" style="display: none;">
+      <h2>Cadastro</h2>
+      <form id="cadastro-form">
+        <input type="text" id="new-username" placeholder="Novo Usuário" required>
+        <br>
+        <input type="password" id="new-password" placeholder="Nova Senha" required>
+        <br>
+        <button type="submit">Cadastrar</button>
+        <button id="voltar-login">Voltar para o Login</button>
+      </form>
+    </div>
+    
+      <!-- Conteúdo do menu aqui -->
+    <div id="menu-container" style="display: none;">
+        <h2>Agenda Online</h2>
         <input type="text" id="eventInput" placeholder="Digite seu evento">
         <button onclick="addEvent()">Adicionar Evento</button>
         <ul id="eventList"></ul>
+      <button id="voltar-login-menu">Voltar para o Login</button>
     </div>
+
     <script src="script.js"></script>
 </body>
 </html>
