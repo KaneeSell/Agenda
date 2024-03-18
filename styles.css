@@ -28,7 +28,8 @@ body {
       .login-container input[type="text"],
       .login-container input[type="password"],
       .cadastro-container input[type="text"],
-      .cadastro-container input[type="password"] {
+      .cadastro-container input[type="password"],
+      #menu-container input[type="text"] {
         width: 100%;
         padding: 10px;
         margin-bottom: 10px;
@@ -38,7 +39,8 @@ body {
       }
     
       .login-container button,
-      .cadastro-container button, #menu-container button {
+      .cadastro-container button,
+      #menu-container button {
         width: 100%;
         padding: 10px;
         background-color: #007bff;
@@ -50,24 +52,6 @@ body {
       }
     
       .login-container button:hover,
-      #menu-container {
-        max-width: 600px;
-        margin: 0 auto;
-        padding: 20px;
-        text-align: center;
-      }
-      input[type="text"] {
-        width: 70%;
-        padding: 10px;
-        margin-bottom: 10px;
-    }
-    button {
-        padding: 10px 20px;
-        background-color: #007bff;
-        color: #fff;
-        border: none;
-        cursor: pointer;
-    }
     
     button:hover {
         background-color: #0056b3;
