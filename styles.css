@@ -11,7 +11,7 @@ body {
         background-size: cover;
       }
     
-      .login-container, .cadastro-container, #menu-container {
+      .login-container, .cadastro-container, #menu-container, .cadastro-containerr {
         background-color: #fff;
         border-radius: 8px;
         padding: 20px;
@@ -51,7 +51,7 @@ body {
       }
     
       .login-container button:hover,
-      .container {
+      #menu-container {
         max-width: 600px;
         margin: 0 auto;
         padding: 20px;
@@ -84,7 +84,7 @@ body {
         background-color: #f4f4f4;
         margin-bottom: 5px;
     }
-      .cadastro-container button:hover, #menu-container button:hover {
+    #menu-container button:hover, #menu-container button:hover {
         background-color: #0056b3;
       }
     font-family: Arial, sans-serif;
