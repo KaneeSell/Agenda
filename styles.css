@@ -39,8 +39,7 @@ body {
       }
     
       .login-container button,
-      .cadastro-container button,
-      #menu-container button {
+      .cadastro-container button, #menu-container button {
         width: 100%;
         padding: 10px;
         background-color: #007bff;
@@ -50,9 +49,7 @@ body {
         cursor: pointer;
         margin-top: 10px;
       }
-    
-      .login-container button:hover,
-    
-    button:hover {
-        background-color: #0056b3;
-    }
+  .login-container button:hover,
+  .cadastro-container button:hover, #menu-container button:hover {
+    background-color: #0056b3;
+  }
