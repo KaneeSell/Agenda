@@ -23,8 +23,7 @@ document.getElementById('login-form').addEventListener('submit', function(event)
 
   if (user) {
     alert('Login feito com sucesso!');
-    loginContainer.style.display = 'none';
-    menuContainer.style.display = 'block';
+    href="pagina2.html";
   } else {
     alert('Usuário ou senha inválidos');
     usernameInput.value = ''; // Limpa o campo de usuário
